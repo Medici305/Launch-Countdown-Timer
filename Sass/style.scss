@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
+@import "./Components/variables";
+@import "./Components/responsiveness";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+.container-fluid {
+  min-height: 100vh;
+  background-image: url(../images/bg-stars.svg);
+  background-color: $Very-dark-blue;
+  background-repeat: no-repeat;
+
+  .title {
+    min-height: 30vh;
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 0.5rem;
+    }
+  }
+  .time {
+    min-height: 40vh;
+  }
+  .social {
+    min-height: 30vh;
+    background-image: url(../images/pattern-hills.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    img {
+      cursor: pointer;
+      &:hover {
+        background-color: $Soft-red;
+        color: $Soft-red;
+        filter: $Soft-red;
+        fill: $Soft-red;
+      }
+    }
+  }
+}

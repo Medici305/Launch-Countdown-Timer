@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap");
+/* Primary */
+/* Neutral */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+.container-fluid {
+  min-height: 100vh;
+  background-image: url(../images/bg-stars.svg);
+  background-color: #1e1f29;
+  background-repeat: no-repeat;
+}
+.container-fluid .title {
+  min-height: 30vh;
+}
+.container-fluid .title h1 {
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+.container-fluid .time {
+  min-height: 40vh;
+}
+.container-fluid .social {
+  min-height: 30vh;
+  background-image: url(../images/pattern-hills.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container-fluid .social img {
+  cursor: pointer;
+}
+.container-fluid .social img:hover {
+  background-color: #fb6087;
+  color: #fb6087;
+  filter: #fb6087;
+  fill: #fb6087;
+}
+
+/*# sourceMappingURL=style.css.map */
